@@ -98,7 +98,7 @@ function isams_deactivation_hook() {
     }
 }
 
-// add_action('isams_daily_event', 'do_this_everyday');
+add_action('isams_daily_event', 'do_this_everyday');
 
 function do_this_everyday() {
 	
